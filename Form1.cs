@@ -3,6 +3,7 @@ using System.Drawing;
 using biblioUsuarios_G2_2024_1;
 using System.Collections;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace Autenticacion_G2_2024_1
 {
@@ -26,6 +27,7 @@ namespace Autenticacion_G2_2024_1
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            int contador = 0;
             foreach (object usuario in usuarios)
             {
                 Usuario miUsuario = (Usuario)usuario;
@@ -34,11 +36,16 @@ namespace Autenticacion_G2_2024_1
                 {
                     MessageBox.Show("Ingreso Correcto");
                     break;
+                    
                 } //En txtbPassword - Propiedad "UseSystemPasswordChar" oculta contraseña, "PasswordChar" elijes caracter para remplazar contraseña 
                 else
                 {
-                    MessageBox.Show("Usuario o Contraseña Incorrecto");
+                    if ()
+                    {
+                        MessageBox.Show("Usuario o Contraseña Incorrecto");
+                    }
                 }
+                contador++;
             }
         }
     }
