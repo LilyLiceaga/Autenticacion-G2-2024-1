@@ -40,7 +40,7 @@ namespace Autenticacion_G2_2024_1
                 } //En txtbPassword - Propiedad "UseSystemPasswordChar" oculta contraseña, "PasswordChar" elijes caracter para remplazar contraseña 
                 else
                 {
-                    if ()
+                    if (contador == usuarios.Count - 1)
                     {
                         MessageBox.Show("Usuario o Contraseña Incorrecto");
                     }
