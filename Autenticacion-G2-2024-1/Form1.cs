@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Drawing;
 using biblioUsuarios_G2_2024_1;
+using ReproductorMusica_G2_2024_1;
 using System.Collections;
 using System.Windows.Forms;
 using System.Threading;
 
 namespace Autenticacion_G2_2024_1
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form 
     {
+        //Form formPadre;
         private ArrayList usuarios; //atributo
         public Form1()
         {
@@ -34,7 +36,16 @@ namespace Autenticacion_G2_2024_1
 
                 if (txtbUsuario.Text == miUsuario.NomUsuario && txtbPassword.Text == miUsuario.Password)
                 {
-                    MessageBox.Show("Ingreso Correcto");
+                    //MessageBox.Show("Ingreso Correcto");
+                    txtbPassword.Clear();
+                    txtbUsuario.Clear();
+
+                    FormReproductor formReproductor = new FormReproductor(); //se pasa como parametro este form  
+                    formReproductor.Show();
+                    this.Hide();
+
+                    //esconde pantalla original para solo mostrar la nueva abierta
+
                     break;
                     
                 } //En txtbPassword - Propiedad "UseSystemPasswordChar" oculta contraseña, "PasswordChar" elijes caracter para remplazar contraseña 

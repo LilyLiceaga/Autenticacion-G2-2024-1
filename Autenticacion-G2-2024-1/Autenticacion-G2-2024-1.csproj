@@ -36,6 +36,9 @@
     <Reference Include="biblioUsuarios-G2-2024-1">
       <HintPath>..\biblioUsuarios-G2-2024-1\bin\Debug\biblioUsuarios-G2-2024-1.dll</HintPath>
     </Reference>
+    <Reference Include="ReproductorMusica-G2-2024-1">
+      <HintPath>..\ReproductorMusica-G2\bin\Debug\ReproductorMusica-G2-2024-1.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />

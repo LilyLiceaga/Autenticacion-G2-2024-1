@@ -1,0 +1,6 @@
+C:\Users\lily_\source\repos\Reproductor Musica\biblioUsuarios-G2-2024-1\bin\Debug\biblioUsuarios-G2-2024-1.dll
+C:\Users\lily_\source\repos\Reproductor Musica\biblioUsuarios-G2-2024-1\bin\Debug\biblioUsuarios-G2-2024-1.pdb
+C:\Users\lily_\source\repos\Reproductor Musica\biblioUsuarios-G2-2024-1\obj\Debug\biblioUsuarios-G2-2024-1.csproj.AssemblyReference.cache
+C:\Users\lily_\source\repos\Reproductor Musica\biblioUsuarios-G2-2024-1\obj\Debug\biblioUsuarios-G2-2024-1.csproj.CoreCompileInputs.cache
+C:\Users\lily_\source\repos\Reproductor Musica\biblioUsuarios-G2-2024-1\obj\Debug\biblioUsuarios-G2-2024-1.dll
+C:\Users\lily_\source\repos\Reproductor Musica\biblioUsuarios-G2-2024-1\obj\Debug\biblioUsuarios-G2-2024-1.pdb

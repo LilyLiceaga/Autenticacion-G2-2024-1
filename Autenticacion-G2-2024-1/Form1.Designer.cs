@@ -37,43 +37,48 @@
             // 
             // txtbUsuario
             // 
-            this.txtbUsuario.Location = new System.Drawing.Point(176, 100);
+            this.txtbUsuario.Location = new System.Drawing.Point(235, 123);
+            this.txtbUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbUsuario.Name = "txtbUsuario";
-            this.txtbUsuario.Size = new System.Drawing.Size(183, 20);
+            this.txtbUsuario.Size = new System.Drawing.Size(243, 22);
             this.txtbUsuario.TabIndex = 0;
             // 
             // txtbPassword
             // 
-            this.txtbPassword.Location = new System.Drawing.Point(176, 151);
+            this.txtbPassword.Location = new System.Drawing.Point(235, 186);
+            this.txtbPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbPassword.Name = "txtbPassword";
             this.txtbPassword.PasswordChar = '*';
-            this.txtbPassword.Size = new System.Drawing.Size(183, 20);
+            this.txtbPassword.Size = new System.Drawing.Size(243, 22);
             this.txtbPassword.TabIndex = 1;
             this.txtbPassword.UseSystemPasswordChar = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(62, 107);
+            this.label1.Location = new System.Drawing.Point(83, 132);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.Size = new System.Drawing.Size(54, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Usuario";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(62, 157);
+            this.label2.Location = new System.Drawing.Point(83, 193);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.Size = new System.Drawing.Size(76, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Contraseña";
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(236, 257);
+            this.btnAceptar.Location = new System.Drawing.Point(315, 316);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(123, 32);
+            this.btnAceptar.Size = new System.Drawing.Size(164, 39);
             this.btnAceptar.TabIndex = 4;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -81,14 +86,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 389);
+            this.ClientSize = new System.Drawing.Size(671, 439);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtbPassword);
             this.Controls.Add(this.txtbUsuario);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Log In";
             this.ResumeLayout(false);
