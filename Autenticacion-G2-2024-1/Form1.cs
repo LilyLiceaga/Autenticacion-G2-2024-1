@@ -10,7 +10,6 @@ namespace Autenticacion_G2_2024_1
 {
     public partial class Form1 : Form 
     {
-        //Form formPadre;
         private ArrayList usuarios; //atributo
         public Form1()
         {
@@ -23,6 +22,7 @@ namespace Autenticacion_G2_2024_1
         {
             usuarios.Add(new Usuario("Armando", "armando00"));
             usuarios.Add(new Usuario("Luis", "luis123"));
+            usuarios.Add(new Usuario("123", "123"));
         }
 
 
@@ -40,7 +40,7 @@ namespace Autenticacion_G2_2024_1
                     txtbPassword.Clear();
                     txtbUsuario.Clear();
 
-                    FormReproductor formReproductor = new FormReproductor(); //se pasa como parametro este form  
+                    FormReproductor formReproductor = new FormReproductor(this); //se pasa como parametro este form  
                     formReproductor.Show();
                     this.Hide();
 
